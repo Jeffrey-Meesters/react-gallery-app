@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import MainNav from './components/MainNav'
+
 class App extends Component {
   render() {
     return (
@@ -15,13 +17,7 @@ class App extends Component {
           </button>
         </form>
 
-        <nav class="main-nav">
-          <ul>
-            <li><a href='#'>Cats</a></li>
-            <li><a href='#'>Dogs</a></li>
-            <li><a href='#'>Computers</a></li>
-          </ul>
-        </nav>
+        <MainNav />
 
         <div class="photo-container">
           <h2>Results</h2>
@@ -41,7 +37,7 @@ class App extends Component {
             {/* <!-- Not Found --> */}
             <li class="not-found">
               <h3>No Results Found</h3>
-              <p>You search did not return any results. Please try again.</p>
+              <p>Your search did not return any results. Please try again.</p>
             </li>
           </ul>
         </div>

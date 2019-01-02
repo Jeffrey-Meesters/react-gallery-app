@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import apiKey from './config';
 
 import MainNav from './components/MainNav'
 import SearchFrom from './components/SearchForm';
 import PhotoContainer from './components/PhotoContainer';
 
-class App extends Component {
+const key = apiKey;
+
+class App extends Component { 
   render() {
     return (
       <div className="App">

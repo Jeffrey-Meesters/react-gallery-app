@@ -7,7 +7,7 @@
 const apiKey = 'YOUR_KEY';
 export default apiKey;
 ```
-5. in your console run `npm start to start the app`
+5. in your console run `npm start` to start the app
 6. go to `http://localhost:3000/` to see it
 
 -------------

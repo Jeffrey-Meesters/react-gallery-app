@@ -1,3 +1,16 @@
+## Setting up
+1. clone this repo
+2. cd into the cloned repo
+3. In the src folder add you config.js
+4. the config.js should contain your flickr api key like this: 
+```javascript
+const apiKey = 'YOUR_KEY';
+export default apiKey;
+```
+5. in you console run `npm start to start the app`
+6. go to `http://localhost:3000/` to see it
+
+-------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
